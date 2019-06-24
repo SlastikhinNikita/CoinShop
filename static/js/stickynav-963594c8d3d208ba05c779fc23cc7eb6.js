@@ -1,0 +1,1 @@
+$(window).on("scroll",function(){var navbottom=$(".header-new").offset().top+$(".header-new").height()-1,stop=Math.round($(window).scrollTop());stop>navbottom?($(".product-nav").addClass("sticky"),$(".header-spacer").addClass("spacer-block")):($(".product-nav").removeClass("sticky"),$(".header-spacer").removeClass("spacer-block"))}).scroll();
